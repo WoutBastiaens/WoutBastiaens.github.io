@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+body {
+    background-color: chartreuse;
+    color: rgb(255, 0, 0);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Rubik Iso', cursive;
+}
+a:hover {
+    background-color: crimson;
+}
+ 
+nav a{
+    text-decoration: none;
+}
+
+.card{
+    background-color: darkorange;
+    width: 69%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    color: pink;
+}
+
+li{
+    list-style-type: none;
+}
+
+#card2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img {
+    width: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+#card3{
+    background-color: darkorange;
+    width: 69%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    color: pink;
+}
+
+#card3 img{
+    width: 200px;
+}
+
+#card3 a{
+    text-decoration: none;
+}
